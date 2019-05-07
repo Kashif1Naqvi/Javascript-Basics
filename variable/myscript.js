@@ -16,11 +16,11 @@ var $important = "what is this?"
 //invalide variable name
 
 
-var #name = "kashif naqvi"
-var %code = "code is art";
-var ^error = "this is error"
-var name-last ="naqvi";
-var ~codeing = "if you should do very depply then you learn a lot"
-var 1Program ="BSCS"
+// var #name = "kashif naqvi"
+// var %code = "code is art";
+// var ^error = "this is error"
+// var name-last ="naqvi";
+// var ~codeing = "if you should do very depply then you learn a lot"
+// var 1Program ="BSCS"
 
 
