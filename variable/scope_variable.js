@@ -4,8 +4,7 @@
 // if you have any query the email me at |naqvishah582@gmail.com|
 
 
-// if write variable and function name is same then also show error so the variable name and function name is not write the same name.
-
+// if write variable and function name is same then also show error so the variable namshowe and function name is not write the same name.black
 
 
 function names(name){
