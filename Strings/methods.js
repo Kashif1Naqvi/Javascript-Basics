@@ -36,9 +36,49 @@ else
 // output:kashif exsits in the string
 
 var program = "Hello world";
+console.log(program.toUpperCase() +" "+ program.toLocaleLowerCase())
 
 // substr mean substring, that is use to find letter string in to string
-
+substr(start,length)
 console.log(program.substr(1,9))
 
 // output is:  ello wor1
+
+
+
+
+// compare diffrent strings 
+var x = "hello"
+var y ="Hello"
+
+if(x.toLowerCase()===y.toLowerCase()) 
+{ 
+  console.log("values are equal");
+}
+else
+{
+  console.log("values are not eqal to each other");
+}
+
+
+
+function compare(a,b){
+    if(a < b ){
+        console.log(a +"<"+ b +":", a < b);
+    }
+    else if(a > b)
+    {
+        console.log(a +">"+ b +":", a > b)
+    }
+    else if(a >=b)
+    {
+        console.log(a +">="+ b +":", a >= b)
+    }
+    else if(a <=b)
+    {
+        console.log(a +"<="+ b +":", a <= b)
+    }
+}
+
+compare('a','b')
+compare('a','a')
