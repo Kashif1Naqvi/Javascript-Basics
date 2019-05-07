@@ -30,8 +30,9 @@ if(undefined == undefined){
 
 
 // null is truley.null is also the value
+// typeof can handle all thing in to string when i write typeof kashif then show string then write number tan also show string
 
-var name = 21321
+var name = null
 
 console.log("name is :",typeof(name))
 
