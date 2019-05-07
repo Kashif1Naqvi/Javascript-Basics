@@ -11,6 +11,10 @@ console.log(myString)
 var multilineString = "1 this is the first line  \n 2 this is the second line \n3 this is the third line \n"
 console.log(multilineString);
 
+var path  = 'c:/program/code/logc';
+console.log(path)
+
+
 var complex_string = 'sir can saying me, \"student please learn from code.your\'s mood is not for doing programming (: \"';
 var qutes_ALias    ='IMAM ALI AS CAN SAY,\'A WISE MEN CAN SAY SOMETHING,BUT A FOOL ALWAYS SAY SOMETHING\'' ;
 
