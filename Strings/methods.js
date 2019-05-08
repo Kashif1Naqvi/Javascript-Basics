@@ -1,7 +1,8 @@
-// indexOf is use for finding value of the index 
+// indexOf is use for finding position of the index  values start from 0
+// lastIndexOf is use for finding postion of the index values but start with ending of the string
 // CharAt() use for finding leters of thw given index
 // length is use for finding a length
-// toUpperCase() use for capital leter 
+// toUpperCase() use for capital leter
 // toLowerCase() are use for small later
 
 var a = "Hello my name is syed kashif naqvi";
@@ -21,6 +22,10 @@ console.log(a.charAt(0))
 console.log(a.indexOf('my'))
 // output: 6
 
+console.log(a.indexOf('my'))
+// output: 6
+
+
 if(a.indexOf('kashsif') !==1 )
 
 {
@@ -36,10 +41,10 @@ else
 // output:kashif exsits in the string
 
 var program = "Hello world";
-console.log(program.toUpperCase() +" "+ program.toLocaleLowerCase())
+console.log(program.toUpperCase() +" "+ program.toLowerCase())
 
 // substr mean substring, that is use to find letter string in to string
-substr(start,length)
+// substr(start,length)
 console.log(program.substr(1,9))
 
 // output is:  ello wor1
@@ -47,12 +52,12 @@ console.log(program.substr(1,9))
 
 
 
-// compare diffrent strings 
+// compare diffrent strings
 var x = "hello"
 var y ="Hello"
 
-if(x.toLowerCase()===y.toLowerCase()) 
-{ 
+if(x.toLowerCase()===y.toLowerCase())
+{
   console.log("values are equal");
 }
 else
