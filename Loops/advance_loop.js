@@ -102,6 +102,17 @@ let insitute = {
   programs:['BSCS','BS-HONS','MSC','MBA','M.COM','B.COM IT','MA ENGLISH','MA ISLAMIYAT'],
   requirments:'Intermediate degree'
 }
+
 for(let i in insitute){
   console.log(i+':'+insitute[i])
+}
+
+console.log('-------------------------------WHILE LOOP----------------------------------')
+
+// while is repeate and repeat again till the specific condition will be true
+
+let x = 0
+while (x<10) {
+  console.log("the value of x is",x)
+  x++
 }
